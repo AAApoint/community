@@ -1,0 +1,11 @@
+2022-01-24 22:08:20.877  INFO 14360 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests on LAPTOP-00UG8CNT with PID 14360 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-24 22:08:20.879 DEBUG 14360 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-01-24 22:08:20.902  INFO 14360 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to default profiles: default
+2022-01-24 22:08:25.630  INFO 14360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-24 22:08:25.975  INFO 14360 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-24 22:08:26.382  INFO 14360 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 6.48 seconds (JVM running for 8.303)
+2022-01-24 22:08:26.641 DEBUG 14360 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2022-01-24 22:08:26.641  INFO 14360 --- [main] com.nowcoder.community.LoggerTests       : info log
+2022-01-24 22:08:26.642  WARN 14360 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2022-01-24 22:08:26.642 ERROR 14360 --- [main] com.nowcoder.community.LoggerTests       : error log
+2022-01-24 22:08:26.652  INFO 14360 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

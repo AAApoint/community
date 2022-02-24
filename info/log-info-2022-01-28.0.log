@@ -1,0 +1,454 @@
+2022-01-28 09:58:04,888 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 2228 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 09:58:04,922 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 09:58:05,121 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 09:58:05,121 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 09:58:07,755 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 09:58:07,770 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 09:58:07,783 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 09:58:07,783 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 09:58:07,789 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 09:58:07,789 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 09:58:07,790 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 09:58:07,849 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 09:58:07,960 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 09:58:07,960 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2838 ms
+2022-01-28 09:58:08,676 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 09:58:08,763 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 09:58:08,921 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 09:58:08,957 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 09:58:08,987 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 09:58:08,993 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 5.949 seconds (JVM running for 9.114)
+2022-01-28 09:58:22,354 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 09:58:22,355 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 09:58:22,365 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 10 ms
+2022-01-28 09:58:22,448 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 09:58:22,740 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 11:21:49,310 INFO [Thread-15] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 11:21:49,314 INFO [Thread-15] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 11:21:49,318 INFO [Thread-15] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
+2022-01-28 11:22:00,773 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 2228 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 11:22:00,774 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 11:22:01,194 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 11:22:01,196 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 11:22:01,197 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 11:22:01,197 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 11:22:01,197 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 11:22:01,198 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 11:22:01,198 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 11:22:01,222 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 11:22:01,222 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 445 ms
+2022-01-28 11:22:01,294 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 11:22:01,334 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 11:22:01,382 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 11:22:01,383 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-01-28 11:22:01,388 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-28 11:22:03,882 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 2228 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 11:22:03,883 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 11:22:04,176 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 11:22:04,177 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 11:22:04,177 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 11:22:04,177 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 11:22:04,178 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 11:22:04,178 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 11:22:04,178 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 11:22:04,200 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 11:22:04,201 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 315 ms
+2022-01-28 11:22:04,379 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 11:22:04,404 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 11:22:04,441 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 11:22:04,469 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 11:22:04,470 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 0.615 seconds (JVM running for 5044.591)
+2022-01-28 11:22:04,472 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-01-28 12:05:17,925 INFO [Thread-24] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 12:05:19,554 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 2228 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 12:05:19,555 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 12:05:20,368 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 12:05:20,370 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 12:05:20,370 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 12:05:20,371 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 12:05:20,373 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 12:05:20,373 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 12:05:20,374 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 12:05:20,425 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 12:05:20,425 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 867 ms
+2022-01-28 12:05:20,636 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 12:05:20,685 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 12:05:20,760 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 12:05:20,810 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 12:05:20,811 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 1.301 seconds (JVM running for 7640.932)
+2022-01-28 12:05:20,814 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-01-28 12:05:23,661 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:50] Starting SensitiveTests on LAPTOP-00UG8CNT with PID 17788 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 12:05:23,663 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 12:05:27,247 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 12:05:27,500 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 12:05:27,939 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:59] Started SensitiveTests in 5.156 seconds (JVM running for 7.104)
+2022-01-28 12:05:28,372 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:14:21,620 INFO [Thread-36] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:14:25,283 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 2228 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:14:25,284 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:14:26,557 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:14:26,558 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:14:26,559 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:14:26,560 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:14:26,560 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:14:26,561 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:14:26,614 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:14:26,665 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:14:26,665 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1378 ms
+2022-01-28 14:14:26,930 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:14:27,015 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:14:27,428 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:14:27,429 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-01-28 14:14:27,438 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-28 14:14:34,939 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:50] Starting PostTests on LAPTOP-00UG8CNT with PID 4156 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:14:34,953 INFO [main] c.n.c.PostTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:14:39,932 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-28 14:16:03,650 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 2228 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:16:03,656 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:16:04,572 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:16:04,574 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:16:04,574 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:16:04,575 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:16:04,576 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:16:04,576 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:16:04,577 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:16:04,630 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:16:04,633 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 972 ms
+2022-01-28 14:16:04,939 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:16:05,025 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:16:05,110 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 14:16:05,174 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 14:16:05,174 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 1.566 seconds (JVM running for 15485.295)
+2022-01-28 14:16:05,177 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-01-28 14:16:06,191 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:50] Starting PostTests on LAPTOP-00UG8CNT with PID 18660 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:16:06,194 INFO [main] c.n.c.PostTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:16:10,358 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:16:10,586 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:16:10,914 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:59] Started PostTests in 5.608 seconds (JVM running for 7.453)
+2022-01-28 14:16:11,390 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:16:11,703 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 14:16:11,881 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:16:11,884 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 14:16:11,907 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
+2022-01-28 14:38:29,011 INFO [Thread-42] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:38:30,952 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 2228 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:38:30,953 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:38:31,697 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:50] Starting PostTests on LAPTOP-00UG8CNT with PID 15464 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:38:31,701 INFO [main] c.n.c.PostTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:38:32,051 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:38:32,053 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:38:32,054 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:38:32,054 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:38:32,055 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:38:32,055 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:38:32,056 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:38:32,096 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:38:32,096 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1138 ms
+2022-01-28 14:38:33,752 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:38:33,854 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:38:34,005 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 14:38:34,050 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 14:38:34,051 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.171 seconds (JVM running for 16834.172)
+2022-01-28 14:38:34,053 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-01-28 14:38:36,171 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:38:36,444 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:38:36,980 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:59] Started PostTests in 6.139 seconds (JVM running for 7.833)
+2022-01-28 14:38:37,323 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:38:37,607 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 14:38:37,858 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:38:37,861 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 14:38:37,883 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
+2022-01-28 14:38:46,985 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 14:38:46,986 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 14:38:46,990 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 4 ms
+2022-01-28 14:38:46,997 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:38:47,008 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 14:48:19,375 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:50] Starting PostTests on LAPTOP-00UG8CNT with PID 17544 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:48:19,395 INFO [main] c.n.c.PostTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:48:25,486 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:48:26,067 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:48:26,579 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:59] Started PostTests in 8.086 seconds (JVM running for 10.419)
+2022-01-28 14:48:26,944 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:48:27,241 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 14:48:27,501 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:48:27,505 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 14:48:27,533 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
+2022-01-28 14:50:42,934 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 6684 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:50:42,939 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:50:43,011 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 14:50:43,012 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 14:50:44,863 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:50:44,880 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:50:44,905 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:50:44,906 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:50:44,914 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:50:44,915 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:50:44,915 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:50:44,996 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:50:45,116 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:50:45,116 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2104 ms
+2022-01-28 14:50:45,760 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:50:45,861 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:50:45,994 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 14:50:46,032 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:50:46,058 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 14:50:46,061 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.744 seconds (JVM running for 5.837)
+2022-01-28 14:50:49,155 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 14:50:49,156 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 14:50:49,162 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 6 ms
+2022-01-28 14:50:49,209 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:50:49,324 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 14:52:57,769 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 12284 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:52:57,773 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:52:57,851 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 14:52:57,852 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 14:52:59,359 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:52:59,369 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:52:59,376 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:52:59,377 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:52:59,383 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:52:59,383 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:52:59,383 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:52:59,386 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:52:59,474 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:52:59,474 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1618 ms
+2022-01-28 14:52:59,977 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:53:00,069 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:53:00,161 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 14:53:00,183 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:53:00,211 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 14:53:00,214 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.036 seconds (JVM running for 5.056)
+2022-01-28 14:53:03,499 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 14:53:03,500 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 14:53:03,507 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 7 ms
+2022-01-28 14:53:03,540 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:53:03,665 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 14:54:11,475 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 14092 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:54:11,479 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:54:11,634 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 14:54:11,634 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 14:54:13,958 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:54:13,976 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:54:13,988 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:54:13,989 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:54:14,001 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:54:14,001 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:54:14,001 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:54:14,006 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:54:14,140 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:54:14,140 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2506 ms
+2022-01-28 14:54:14,850 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:54:14,952 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:54:15,072 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 14:54:15,117 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:54:15,153 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 14:54:15,156 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.524 seconds (JVM running for 6.696)
+2022-01-28 14:54:59,161 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 14:54:59,161 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 14:54:59,172 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 10 ms
+2022-01-28 14:54:59,203 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:54:59,344 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 14:57:46,797 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 452 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:57:46,804 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:57:46,878 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 14:57:46,878 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 14:57:48,806 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:57:48,822 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:57:48,833 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:57:48,833 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:57:48,840 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:57:48,840 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:57:48,841 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:57:48,846 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:57:48,937 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:57:48,937 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2058 ms
+2022-01-28 14:57:49,459 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:57:49,538 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:57:49,627 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 14:57:49,652 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:57:49,680 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 14:57:49,683 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.673 seconds (JVM running for 5.768)
+2022-01-28 14:57:52,176 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 14:57:52,176 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 14:57:52,183 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 6 ms
+2022-01-28 14:57:52,211 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:57:52,320 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 14:58:30,338 INFO [Thread-10] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:58:30,339 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 14:58:30,343 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
+2022-01-28 14:58:40,453 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 452 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:58:40,455 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:58:41,063 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:58:41,065 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:58:41,065 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:58:41,066 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:58:41,067 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:58:41,067 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:58:41,067 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:58:41,103 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:58:41,103 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 646 ms
+2022-01-28 14:58:41,238 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:58:41,327 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:58:41,523 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 14:58:41,547 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 14:58:41,547 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 1.141 seconds (JVM running for 57.633)
+2022-01-28 14:58:41,549 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-01-28 14:58:53,471 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 8628 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 14:58:53,477 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 14:58:53,532 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 14:58:53,532 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 14:58:55,177 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 14:58:55,190 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:58:55,198 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 14:58:55,199 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 14:58:55,206 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 14:58:55,206 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 14:58:55,206 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 14:58:55,210 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 14:58:55,321 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 14:58:55,322 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1790 ms
+2022-01-28 14:58:55,955 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 14:58:56,055 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 14:58:56,163 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 14:58:56,193 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 14:58:56,225 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 14:58:56,228 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.358 seconds (JVM running for 5.852)
+2022-01-28 14:59:03,744 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 14:59:03,745 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 14:59:03,752 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 6 ms
+2022-01-28 14:59:03,780 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 14:59:03,895 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 15:07:03,322 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 1616 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 15:07:03,354 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 15:07:03,450 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 15:07:03,450 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 15:07:05,279 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 15:07:05,290 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 15:07:05,297 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 15:07:05,297 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 15:07:05,304 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 15:07:05,304 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 15:07:05,304 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 15:07:05,308 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 15:07:05,407 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 15:07:05,408 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1957 ms
+2022-01-28 15:07:05,970 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:07:06,053 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 15:07:06,141 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 15:07:06,167 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 15:07:06,195 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 15:07:06,198 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.82 seconds (JVM running for 6.532)
+2022-01-28 15:07:06,555 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 15:07:06,556 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 15:07:06,574 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 17 ms
+2022-01-28 15:07:06,702 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 15:07:07,398 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 15:20:57,629 INFO [Thread-10] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:20:57,631 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 15:20:57,636 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
+2022-01-28 15:20:59,603 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 1616 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 15:20:59,604 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 15:21:00,082 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 15:21:00,085 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 15:21:00,086 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 15:21:00,086 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 15:21:00,087 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 15:21:00,087 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 15:21:00,088 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 15:21:00,088 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 15:21:00,177 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 15:21:00,177 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 571 ms
+2022-01-28 15:21:00,481 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:21:00,568 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 15:21:00,654 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 15:21:00,710 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 15:21:00,727 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 15:21:00,728 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 1.172 seconds (JVM running for 841.062)
+2022-01-28 15:21:00,733 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:70] Condition evaluation unchanged
+2022-01-28 15:21:02,880 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:50] Starting PostTests on LAPTOP-00UG8CNT with PID 16424 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 15:21:02,883 INFO [main] c.n.c.PostTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 15:21:06,639 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:21:06,896 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 15:21:07,271 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:59] Started PostTests in 5.228 seconds (JVM running for 7.292)
+2022-01-28 15:21:07,564 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 15:21:07,873 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 15:21:08,036 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:21:08,043 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 15:21:08,076 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
+2022-01-28 15:41:36,503 INFO [Thread-18] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:41:39,893 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:50] Starting PostTests on LAPTOP-00UG8CNT with PID 10164 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 15:41:39,899 INFO [main] c.n.c.PostTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 15:41:47,904 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:41:48,773 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 15:41:49,759 INFO [main] c.n.c.PostTests [StartupInfoLogger.java:59] Started PostTests in 11.057 seconds (JVM running for 13.571)
+2022-01-28 15:41:50,591 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 15:41:51,574 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 15:41:51,813 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:41:51,824 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 15:41:51,857 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
+2022-01-28 15:41:52,829 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 2096 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 15:41:52,850 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 15:41:52,959 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 15:41:52,960 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 15:41:56,688 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 15:41:56,711 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 15:41:56,728 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 15:41:56,729 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 15:41:56,741 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 15:41:56,741 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 15:41:56,742 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 15:41:56,750 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 15:41:56,954 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 15:41:56,955 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 3994 ms
+2022-01-28 15:41:57,989 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:41:58,152 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 15:41:58,338 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 15:41:58,372 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 15:41:58,409 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 15:41:58,413 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 6.54 seconds (JVM running for 14.023)
+2022-01-28 15:42:04,882 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 15:42:04,882 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 15:42:04,890 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 7 ms
+2022-01-28 15:42:04,919 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 15:42:05,029 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 15:42:42,883 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on LAPTOP-00UG8CNT with PID 12464 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 15:42:42,889 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 15:42:42,974 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-28 15:42:42,974 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-28 15:42:45,268 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-01-28 15:42:45,282 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-28 15:42:45,296 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-01-28 15:42:45,296 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-28 15:42:45,304 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2022-01-28 15:42:45,304 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-01-28 15:42:45,305 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-28 15:42:45,310 INFO [restartedMain] o.a.c.c.AprLifecycleListener [DirectJDKLog.java:173] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2022-01-28 15:42:45,431 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-01-28 15:42:45,431 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2456 ms
+2022-01-28 15:42:46,182 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 15:42:46,299 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 15:42:46,421 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-01-28 15:42:46,457 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-01-28 15:42:46,489 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-01-28 15:42:46,492 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.663 seconds (JVM running for 6.814)
+2022-01-28 15:42:48,335 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-28 15:42:48,336 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-01-28 15:42:48,347 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 10 ms
+2022-01-28 15:42:48,406 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 15:42:48,575 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 23:56:41,381 INFO [main] c.n.c.CommentTests [StartupInfoLogger.java:50] Starting CommentTests on LAPTOP-00UG8CNT with PID 4240 (started by 马海森 in E:\IntelliJ IDEA 2019.3.3\projects\community)
+2022-01-28 23:56:41,399 INFO [main] c.n.c.CommentTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-01-28 23:56:47,382 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-28 23:56:47,669 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-01-28 23:56:48,120 INFO [main] c.n.c.CommentTests [StartupInfoLogger.java:59] Started CommentTests in 8.303 seconds (JVM running for 11.896)
+2022-01-28 23:56:48,587 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] hikariCP - Starting...
+2022-01-28 23:56:48,935 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] hikariCP - Start completed.
+2022-01-28 23:56:49,107 INFO [Thread-3] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-28 23:56:49,113 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:350] hikariCP - Shutdown initiated...
+2022-01-28 23:56:49,140 INFO [Thread-3] c.z.h.HikariDataSource [HikariDataSource.java:352] hikariCP - Shutdown completed.
