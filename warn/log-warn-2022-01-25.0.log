@@ -1,6 +1,0 @@
-2022-01-25 09:21:13,751 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-01-25 09:22:11,679 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-01-25 12:07:48,918 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-01-25 13:08:45,497 WARN [http-nio-8080-exec-2] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-01-25 14:35:18,901 WARN [hikariCP housekeeper] c.z.h.p.HikariPool [HikariPool.java:766] hikariCP - Thread starvation or clock leap detected (housekeeper delta=42m2s753ms959µs300ns).
-2022-01-25 15:40:54,369 WARN [http-nio-8080-exec-8] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
