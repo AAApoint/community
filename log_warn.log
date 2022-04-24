@@ -1,18 +1,16 @@
-2022-03-03 09:53:37,077 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 09:53:41,542 WARN [http-nio-8080-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:198] Resolved [org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379]
-2022-03-03 09:58:08,886 WARN [http-nio-8080-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:198] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "my-post.html"]
-2022-03-03 09:58:31,729 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 10:27:29,925 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 10:32:24,470 WARN [http-nio-8080-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:198] Resolved [org.springframework.web.bind.MissingRequestCookieException: Missing cookie 'owner' for method parameter of type String]
-2022-03-03 10:35:49,072 WARN [http-nio-8080-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:198] Resolved [org.springframework.web.bind.MissingRequestCookieException: Missing cookie 'owner' for method parameter of type String]
-2022-03-03 10:37:47,981 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 10:39:10,864 WARN [http-nio-8080-exec-7] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:198] Resolved [org.springframework.web.bind.MissingRequestCookieException: Missing cookie 'owner' for method parameter of type String]
-2022-03-03 10:40:59,459 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 10:43:58,530 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 11:13:39,395 WARN [http-nio-8080-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:198] Resolved [org.springframework.web.bind.MissingRequestCookieException: Missing cookie 'owner' for method parameter of type String]
-2022-03-03 11:13:53,515 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 11:53:06,402 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 11:58:04,309 WARN [http-nio-8080-exec-5] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 11:59:27,699 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
-2022-03-03 14:01:29,951 WARN [lettuce-nioEventLoop-4-1] i.n.c.n.NioEventLoop [NioEventLoop.java:850] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@338c6281.
-2022-03-03 14:01:39,504 WARN [lettuce-nioEventLoop-4-2] i.n.c.n.NioEventLoop [NioEventLoop.java:850] Selector.select() returned prematurely 512 times in a row; rebuilding Selector io.netty.channel.nio.SelectedSelectionKeySetSelector@1ed186e4.
+2022-04-21 15:15:06,510 WARN [http-nio-8080-exec-9] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 15:22:03,090 WARN [http-nio-8080-exec-2] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 15:24:50,216 WARN [http-nio-8080-exec-1] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 15:50:21,180 WARN [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [7F5B1FF21374EA9E339093489E08F8EE]
+2022-04-21 16:48:23,765 WARN [restartedMain] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 16:52:26,176 WARN [restartedMain] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 16:58:28,854 WARN [main] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 17:29:35,474 WARN [restartedMain] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 17:48:16,756 WARN [restartedMain] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 17:55:48,865 WARN [http-nio-8080-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:198] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "my-post.html"]
+2022-04-21 20:40:37,577 WARN [main] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 21:01:57,764 WARN [main] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 21:12:12,204 WARN [main] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 21:14:12,147 WARN [restartedMain] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 22:13:35,130 WARN [restartedMain] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2022-04-21 22:17:09,015 WARN [restartedMain] c.z.h.HikariConfig [HikariConfig.java:973] hikariCP - idleTimeout is close to or more than maxLifetime, disabling it.

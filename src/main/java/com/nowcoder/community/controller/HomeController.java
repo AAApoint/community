@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
@@ -30,11 +31,12 @@ public class HomeController implements CommunityConstant {
     private UserService userService;
 
     @RequestMapping(path = "/index", method = RequestMethod.GET)
-    public String getIndexPage(Model model, Page page){
-        page.setPath("/index");
+    public String getIndexPage(Model model, Page page, @RequestParam(name = "orderMode", defaultValue = "0") int orderMode){
+        page.setPath("/index?orderMode=" + orderMode);
         page.setRows(discussPostService.findDiscussPostRows(0));
 
-        List<DiscussPost> discussPosts = discussPostService.findDiscussPosts(0, page.getOffset(), page.getLimit());
+        List<DiscussPost> discussPosts = discussPostService
+                .findDiscussPosts(0, page.getOffset(), page.getLimit(), orderMode);
         List<Map<String, Object>> postList = new ArrayList<>();
 
         if(discussPosts != null){
@@ -50,11 +52,17 @@ public class HomeController implements CommunityConstant {
             }
         }
         model.addAttribute("postList", postList);
+        model.addAttribute("orderMode", orderMode);
         return "index";
     }
 
     @RequestMapping(path = "/error", method = RequestMethod.GET)
     public String getErrorPage(){
         return "/error/500";
+    }
+
+    @RequestMapping(path = "/denied", method = RequestMethod.GET)
+    public String getDeniedPage() {
+        return "/error/404";
     }
 }

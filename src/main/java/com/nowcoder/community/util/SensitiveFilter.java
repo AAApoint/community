@@ -59,7 +59,7 @@ public class SensitiveFilter {
         if(StringUtils.isBlank(text)){
             return null;
         }
-
+       
         // 指针1
         TrieNode tempNode = rootNode;
         // 指针2
